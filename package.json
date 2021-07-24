@@ -1,0 +1,26 @@
+{
+  "name": "country-timezone-list",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "karunais1392@gmail.com",
+    "name": "Karunaiswaran"
+  },
+  "description": "Package to get general list of timezone.",
+  "homepage": "https://github.com/karunais13/timzone-list/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karunais13/timzone-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karunais13/timzone-list/issues"
+  },
+  "keywords": [
+    "timezones",
+    "timezone",
+    "utc",
+    "GMT",
+    "country",
+    "country timezone"
+  ]
+}
