@@ -7,13 +7,13 @@
     "name": "Karunaiswaran"
   },
   "description": "Package to get general list of timezone.",
-  "homepage": "https://github.com/karunais13/timzone-list/#readme",
+  "homepage": "https://github.com/karunais13/country-timezone-list/#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karunais13/timzone-list.git"
+    "url": "git+https://github.com/karunais13/country-timezone-list.git"
   },
   "bugs": {
-    "url": "https://github.com/karunais13/timzone-list/issues"
+    "url": "https://github.com/karunais13/country-timezone-list/issues"
   },
   "keywords": [
     "timezones",
