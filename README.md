@@ -16,7 +16,7 @@ yarn add country-timezone-list
 Usage:
 
 ```js
-import { getTimezoneList, getTimezoneByCountry, getTimezoneGroupByCountryCode } from "@karunais13/timezone-list";
+import { getTimezoneList, getTimezoneByCountry, getTimezoneGroupByCountryCode } from "country-timezone-list";
 ```
 
 ## API
