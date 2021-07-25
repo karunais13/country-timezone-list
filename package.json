@@ -1,10 +1,11 @@
 {
   "name": "country-timezone-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "email": "karunais1392@gmail.com",
-    "name": "Karunaiswaran"
+    "name": "Karunaiswaran",
+    "url" : "https://github.com/karunais13"
   },
   "description": "Package to get general list of timezone.",
   "homepage": "https://github.com/karunais13/country-timezone-list/#readme",
