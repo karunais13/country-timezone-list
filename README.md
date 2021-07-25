@@ -5,12 +5,12 @@
 Installation:
 ### npm
 ```bash
-npm install @karunais13/timezone-list
+npm install country-timezone-list
 ```
 
 ### yarn
 ```bash
-yarn add @karunais13/timezone-list
+yarn add country-timezone-list
 ```
 
 Usage:
