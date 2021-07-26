@@ -42,7 +42,14 @@ const formateResponse = (data) => {
 const getTimezoneByCountry = (cn) => {
   const result = [];
 
-  RawData.forEach(item => item.countryCode.toLowerCase() === cn.toLowerCase() && result.push(formateResponse(item)))
+  let countryCode = cn;
+
+  if( !Array.isArray(cn) ) countryCode = [cn];
+
+  RawData.forEach(item => {
+    if( countryCode.includes(item.countryCode.toLowerCase()) || countryCode.includes(item.countryCode.toUpperCase()) )
+      result.push(formateResponse(item))
+  })
 
   return result;
 }

@@ -50,7 +50,7 @@ This method returns an array of time zones objects:
 ### getTimezoneByCountry( String countryCode )
 
 ```js
-const tz = getTimezoneByCountry('MY');
+const tz = getTimezoneByCountry('MY' || ['MY', 'ID']);
 ```
 
 This method returns an array of time zones objects for particular country:
