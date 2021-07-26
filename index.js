@@ -76,8 +76,27 @@ const getTimezoneList = () => {
   return result;
 }
 
+const getUTC = () => {
+
+  const _utc =  {
+    name: 'UTC',
+    alternativeName: 'UTC',
+    countryName: '',
+    countryCode: '',
+    abbreviation: 'UTC',
+    offset: '+00:00',
+    rawOffsetInMinutes: 0,
+    fullName: '(UTC+00:00) UTC',
+    fullAlternativeName: '(UTC+00:00) UTC'
+  }
+
+  return _utc;
+}
+
+
 module.exports = {
   getTimezoneList,
   getTimezoneByCountry,
-  getTimezoneGroupByCountryCode
+  getTimezoneGroupByCountryCode,
+  getUTC
 };
